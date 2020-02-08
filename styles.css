@@ -27,11 +27,13 @@ body, html
 .accolades
 {
     grid-area: accolades;
+    text-align: center;
 }
 
 .tech-skills
 {
     grid-area: tech-skills;
+    text-align: center;
 }
 
 .address
@@ -48,19 +50,22 @@ body, html
 .summary
 {
     grid-area: summary;
+    text-align: center;
 }
 
 .accolades
 {
     grid-area: accolades;
+    text-align: center;
 }
 
 .education
 {
     grid-area: education;
+    text-align: center;
 }
 
-.section-text
+.section-header
 {
     line-height: 38px;
     font-size: 30px;
@@ -77,5 +82,4 @@ body, html
     font-weight: 58px;
     letter-spacing: 0px;
     font-weight: 400;
-
 }
