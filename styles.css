@@ -1,6 +1,9 @@
 body, html
 {
     font-family: 'Open Sans';
+    font-size: 17px;
+    font-weight: 24px;
+    font-weight: 400;
 }
 
 #outer-grid
