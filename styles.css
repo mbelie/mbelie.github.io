@@ -58,6 +58,7 @@ body, html
 .entry
 {
     display: grid;
+    grid-gap: 5px;
     grid-template-columns: auto auto;
 }
 
@@ -65,12 +66,14 @@ body, html
 {
     grid-column: 1;
     grid-row: 1;
+    text-align: left;
 }
 
 .entry-date
 {
     grid-column: 2;
     grid-row: 1;
+    text-align: right;
 }
 
 .entry-header
