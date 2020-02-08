@@ -3,6 +3,62 @@ body, html
     font-family: 'Open Sans';
 }
 
+.grid-container
+{
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: 
+        "header"
+        "summary"
+        "tech-skills"
+        "experience"
+        "education"
+        "accolades"
+    ;
+    background-color: gray;
+}
+
+.name
+{
+    text-align: left;
+    grid-area: name;
+}
+
+.accolades
+{
+    grid-area: accolades;
+}
+
+.tech-skills
+{
+    grid-area: tech-skills;
+}
+
+.address
+{
+    text-align: right;
+    grid-area: address;
+}
+
+.experience
+{
+    grid-area: experience;
+}
+
+.summary
+{
+    grid-area: summary;
+}
+
+.accolades
+{
+    grid-area: accolades;
+}
+
+.education
+{
+    grid-area: education;
+}
 
 .section-text
 {
@@ -21,45 +77,5 @@ body, html
     font-weight: 58px;
     letter-spacing: 0px;
     font-weight: 400;
-
-}
-
-.grid-container
-{
-    display: grid;
-    grid-gap: 2px;
-    grid-template-columns: name address;
-    background-color: gray;
-}
-
-.name
-{
-    text-align: left;
-    grid-area: name;
-}
-
-.accolades
-{
-
-}
-
-.technical-skills
-{
-
-}
-
-.address
-{
-    text-align: right;
-    grid-are: address;
-}
-
-.professional-experience
-{
-
-}
-
-.accolades
-{
 
 }
