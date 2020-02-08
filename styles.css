@@ -1,0 +1,43 @@
+body, html
+{
+	font-family: 'Open Sans';
+}
+
+.grid-container
+{
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: name address;
+}
+
+.name
+{
+	text-align: left;
+	grid-area: name;
+}
+
+.accolades
+{
+
+}
+
+.technical-skills
+{
+
+}
+
+.address
+{
+	text-align: right;
+	grid-are: address;
+}
+
+.professional-experience
+{
+
+}
+
+.accolades
+{
+
+}
