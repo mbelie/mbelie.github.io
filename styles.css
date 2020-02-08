@@ -1,8 +1,7 @@
 body, html
 {
     font-family: 'Open Sans';
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 12px;    
     font-weight: 400;
 }
 
@@ -41,21 +40,6 @@ body, html
 
 #outer-grid > div{
     background-color: lightgreen;
-}
-
-.section-header
-{
-    line-height: 38px;
-    font-size: 30px;
-    letter-spacing: 0;
-    font-weight: 300;
-    color: #525252;
-    text-align: center;
-}
-
-.header
-{
-    box-shadow: 
 }
 
 .entry
@@ -109,8 +93,18 @@ body, html
 {
     font-family: Montserrat;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 28px;
+    line-height: 30px;
     color: #333;
     letter-spacing: 0;    
+}
+
+.section-header
+{
+    line-height: 20px;
+    font-size: 22px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #525252;
+    text-align: center;
 }
