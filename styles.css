@@ -3,7 +3,7 @@ body, html
     font-family: 'Open Sans';
 }
 
-.outer-grid
+#outer-grid
 {
     display: grid;
     grid-gap: 2px;
@@ -11,7 +11,15 @@ body, html
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-.outer-grid > div{
+#header
+{
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#outer-grid > div{
     background-color: lightgreen;
 }
 
@@ -22,6 +30,10 @@ body, html
     letter-spacing: 0px;
     font-weight: 300;
     color: #525252;
+}
+
+.header{
+    box-shadow: 
 }
 
 .header-text
