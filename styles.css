@@ -1,14 +1,14 @@
 body, html
 {
     font-family: 'Open Sans';
-    font-size: 17px;
-    font-weight: 24px;
+    font-size: 14px;
+    line-height: 16px;
     font-weight: 400;
 }
 
 #outer-grid
 {
-    width: 5.5in;
+    width: 8.5in;
     height: 11in;
     padding:0.5in;
     margin: 0 auto;
@@ -107,10 +107,10 @@ body, html
 
 .header-text
 {
-    font: family: Montserrat;
-    color: #333;
-    font-size: 50px;
-    font-weight: 58px;
-    letter-spacing: 0;
+    font-family: Montserrat;
     font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #333;
+    letter-spacing: 0;    
 }
