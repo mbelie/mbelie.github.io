@@ -61,23 +61,26 @@ body, html
     grid-template-columns: auto auto;
 }
 
-.c1s1
+.entry-header
 {
     font-family: Roboto;
     text-transform: uppercase;   
     color: #525252;
     letter-spacing: 1;
     grid-column: 1;
+    grid-row: 1;
 }
 
-.c1s2
+.entry-title
 {
     grid-column: 1 / span 2;
-}
-
-.italic
-{
+    grid-row: 2;
     font-style: italic;
+}
+.entry-title
+{
+    grid-column: 1 / span 2;
+    grid-row: 3;
 }
 
 .header-text
