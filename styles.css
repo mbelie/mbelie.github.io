@@ -53,9 +53,9 @@ body, html
     text-align: center;
 }
 
-.accolades
+.header
 {
-    grid-area: accolades;
+    grid-area: header;
     text-align: center;
 }
 
