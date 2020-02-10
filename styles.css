@@ -1,14 +1,15 @@
 body, html
 {
     font-family: 'Open Sans';
-    font-size: 14px;    
+    font-size: 12px;    
+    font-weight: 400;
 }
 
 #outer-grid
 {
     width: 8.5in;
     height: 11in;
-    padding: 0.1in;
+    padding:0.5in;
     margin: 0 auto;
     display: grid;
     grid-gap: 10px 0px;
@@ -48,14 +49,8 @@ body, html
     text-align: right;
 }
 
-#skills-table
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-#skills-table > div{
-    background-color: pink;
+#outer-grid > div{
+    background-color: lightgreen;
 }
 
 .entry
@@ -68,6 +63,11 @@ body, html
 .entry > div{
     background-color: yellow;
     padding-bottom: 2px;
+}
+
+.entry > div{
+    background-color: yellow;
+    padding:2px;
 }
 
 .entry-place
@@ -105,14 +105,20 @@ body, html
 
 .header-text
 {
-    font-family: 'Montserrat';
-    font-weight: 900;
-    font-size: 36px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+    color: #333;
+    letter-spacing: 0;    
 }
 
 .section-header
-{   
-    font-family: 'Work Sans';
-    font-size: 22px;    
+{
+    line-height: 20px;
+    font-size: 22px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #525252;
     text-align: center;
 }
