@@ -7,14 +7,14 @@ body, html
 
 #outer-grid
 {
-    width: 8.5in;
+    /*width: 8.5in;
     height: 11in;
-    padding:0.5in;
+    padding:0.5in;*/
     margin: 0 auto;
     display: grid;
     grid-gap: 10px 0px;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 50px 1fr 1fr 1fr;
+    grid-template-rows: min-content;
 }
 
 #outer-grid > div{
@@ -23,12 +23,10 @@ body, html
 
 #objective
 {
-    align-content: center;
 }
 
-#summary
+#education
 {
-    align-content: center;
 }
 
 #header
@@ -65,16 +63,18 @@ body, html
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
+    padding-bottom: 10px;
 }
 
-.entry > div{
+.entry > div
+{
     background-color: yellow;
-    padding-bottom: 2px;
 }
 
-.entry > div{
-    background-color: yellow;
-    padding:2px;
+.entry-header
+{
+    font-family: 'Roboto';
+    font-size: 14px;
 }
 
 .entry-place
@@ -82,9 +82,7 @@ body, html
     grid-column: 1;
     grid-row: 1;
     text-align: left;
-    font-family: 'Roboto';
-    text-transform: uppercase;
-    font-size: 16px;
+    text-transform: uppercase;    
 }
 
 .entry-date
@@ -92,9 +90,6 @@ body, html
     grid-column: 2;
     grid-row: 1;
     text-align: right;
-    font-family: 'Roboto';
-    text-transform: uppercase;
-    font-size: 16px;
 }
 
 .entry-title
