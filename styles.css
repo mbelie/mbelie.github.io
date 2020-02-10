@@ -49,6 +49,13 @@ body, html
     text-align: right;
 }
 
+#skills-table
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;   
+}
+
 #outer-grid > div{
     background-color: lightgreen;
 }
